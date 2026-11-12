@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="900" height="240" role="img" aria-label="MD Studio banner">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14122e"/><stop offset="1" stop-color="#2a1f6b"/></linearGradient>
+ <linearGradient id="tx" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#a99bff"/><stop offset="1" stop-color="#6dd5ff"/></linearGradient>
+</defs>
+<style>
+ .t{font:800 64px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+ .s{font:400 20px system-ui,Segoe UI,sans-serif;fill:#c9c4f5}
+ .g{font:700 28px ui-monospace,monospace;fill:#8b7dff;opacity:.35;animation:fl 6s ease-in-out infinite}
+ .g:nth-of-type(2n){animation-duration:8s;animation-delay:-2s}.g:nth-of-type(3n){animation-duration:7s;animation-delay:-4s}
+ .cur{animation:bl 1s steps(1) infinite;fill:#6dd5ff}
+ .w{animation:ty 2.4s steps(9) .3s both}
+ @keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
+ @keyframes bl{50%{opacity:0}}
+ @keyframes ty{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
+</style>
+<rect width="900" height="240" rx="18" fill="url(#bg)"/>
+<text class="g" x="60" y="70">#</text><text class="g" x="150" y="200">**</text><text class="g" x="760" y="60">&gt;</text>
+<text class="g" x="820" y="190">`</text><text class="g" x="690" y="210">[ ]</text><text class="g" x="30" y="150">-</text><text class="g" x="560" y="40">~~</text>
+<g class="w"><text class="t" x="110" y="130" fill="url(#tx)">MD Studio</text></g>
+<rect class="cur" x="560" y="80" width="10" height="62" rx="2"/>
+<text class="s" x="112" y="176">Professional Markdown editor · live preview · math · diagrams</text>
+</svg>
