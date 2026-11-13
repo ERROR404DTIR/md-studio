@@ -1,5 +1,7 @@
 <div align="center">
 
+<p align="center"><img src="assets/readme-banner.svg" alt="Animated MD Studio Markdown preview banner" width="100%"></p>
+
 <img src="assets/banner.svg" alt="MD Studio" width="100%">
 
 ### A professional Markdown editor that lives in one HTML file.
